@@ -19,7 +19,7 @@ bot = Client(
 
 
 @bot.on_message(filters.command("start"))
-def start():
+def start(_,message):
     message.reply_text("Hello")
 
 
